@@ -3,6 +3,7 @@
   --NAVY-BLUE: #2e2f42;
   --SLATE: #434455;
   --OCEAN: #404bbf;
+  --GREY: rgba(46, 47, 66, 0.70);
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -36,7 +37,9 @@ ul {
 }
 /* heading-1 */
 section.effective {
-  background-color: var(--NAVY-BLUE, #2e2f42);
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../Images/people-office\ 1.jpg);
+  background-size: cover;
+  background-color: #2E2F42B2;
   text-align: center;
 }
 
