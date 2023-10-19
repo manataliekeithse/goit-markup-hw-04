@@ -93,7 +93,7 @@ button {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-/* services */
+/* services styling */
 .main-header-link-studio {
   list-style-type: none;
   text-decoration: none;
@@ -145,7 +145,7 @@ button {
 .main-header-phone-item {
   list-style-type: none;
 }
-/* Contacts */
+/* Contacts styling */
 .email {
   text-decoration: none;
   color: var(--SLATE);
@@ -241,7 +241,7 @@ button {
   margin-right: 156px;
 }
 
-/* what we do-images */
+/* what we do */
 .section {
   justify-content: center;
 }
@@ -272,7 +272,7 @@ button {
   margin-right: 24px;
 }
 
-/* team-members */
+/* team styling */
 .team-section {
   background-color: #F4F4FD;
   padding-top: 120px;
@@ -289,6 +289,7 @@ button {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  gap: 10px;
 
 }
 
@@ -433,7 +434,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-/* footer */
+/* footer styling */
 footer.logo {
   font-family: Raleway;
   background-color: var(--NAVY-BLUE);
@@ -443,6 +444,9 @@ footer.logo {
   padding-right: 500px;
   padding-bottom: 100px;
   width: 100%;
+
+  display: flex;
+  gap: 100px;
 }
 .customer-icon {
   list-style: none;
@@ -462,7 +466,7 @@ footer.logo {
 
 .customer-icon:hover svg,
 .customer-icon:focus svg {
-  fill: var(--IRIS);
+  transform: scale(1.5);
 }
 
 .socialmedia {
@@ -482,6 +486,7 @@ letter-spacing: 0.32px;
   text-transform: none;
 }
 
+/* portfolio styling */
 .projects ul {
   width: 100%;
   display: flex ;
@@ -491,7 +496,8 @@ letter-spacing: 0.32px;
 }
 
 .projects li {
-  width: 30%;
+  width: 360px;
+  
 }
 .projects li img {
   width: 100%
@@ -524,3 +530,4 @@ letter-spacing: 0.32px;
 .main-header-container {
   display: inline-block;
 }
+
