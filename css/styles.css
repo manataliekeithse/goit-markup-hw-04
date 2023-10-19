@@ -186,7 +186,7 @@ button {
   padding-bottom: 120px;
   
 }
-.services {
+.section-title {
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
@@ -207,6 +207,15 @@ button {
 }
 
 /* values */
+.values-icons {
+ display: flex;
+ justify-content: center;
+ border-radius: 4px;
+ background-color: #F4F4FD;
+ padding: 24px 0;
+
+}
+
 .strategy {
   list-style-type: none;
   font-family: Roboto;
@@ -275,6 +284,25 @@ button {
   justify-content: center;
    
 }
+
+.team-socials {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.team-socials-icon {
+  background-color: var(--IRIS);
+  fill: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .mark {
   list-style-type: none;
   justify-content: center;
@@ -284,6 +312,9 @@ button {
    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.mark img {
+  display: block;
+}
 .mark-fullname {
   font-family: Roboto;
   font-size: 20px;
@@ -292,8 +323,12 @@ button {
   letter-spacing: 0.4px;
   color: var(--NAVY-BLUE);
   text-align: center;
+  margin-top: 0;
 }
 
+.team-caption {
+  padding: 32px 0px;
+}
 .designer {
   font-family: Roboto;
   font-size: 16px;
@@ -315,6 +350,9 @@ button {
 
 }
 
+.tom img {
+  display: block;
+}
 .tom-fullname {
   color: var(--NAVY-BLUE);
   font-family: Roboto;
@@ -322,6 +360,7 @@ button {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  margin-top: 0;
 }
 .developer {
   color: var(--SLATE);
@@ -341,6 +380,9 @@ button {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.camila img {
+  display: block;
+}
 .camila-fullname {
   color: var(--NAVY-BLUE);
   font-family: Roboto;
@@ -348,6 +390,7 @@ button {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  margin-top: 0px;
 }
 
 .marketing {
@@ -369,6 +412,9 @@ background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.daniel img {
+  display: block;
+}
 .daniel-fullname {
   color: var(--NAVY-BLUE);
   font-family: Roboto;
@@ -376,6 +422,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  margin-top: 0;
 }
 
 .ui-designer {
@@ -397,7 +444,36 @@ footer.logo {
   padding-bottom: 100px;
   width: 100%;
 }
+.customer-icon {
+  list-style: none;
+  text-decoration: none;
+  border: 1px solid var(--SLATE);
+  padding: 16px 32px;
+  margin-bottom: 50px;
+}
 
+.customer-icon svg {
+  fill: var(--SLATE)
+}
+.customer-icon:hover,
+.customer-icon:focus {
+  border-color: var(--IRIS);
+}
+
+.customer-icon:hover svg,
+.customer-icon:focus svg {
+  fill: var(--IRIS);
+}
+
+.socialmedia {
+   color: var(--WHITE, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
 .footer-desc {
   font-family: Roboto;
   font-size: 16px;
@@ -406,6 +482,20 @@ footer.logo {
   text-transform: none;
 }
 
+.projects ul {
+  width: 100%;
+  display: flex ;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.projects li {
+  width: 30%;
+}
+.projects li img {
+  width: 100%
+}
 .main-header-link-studio {
   display: inline-block;
   align-items: flex-start;
